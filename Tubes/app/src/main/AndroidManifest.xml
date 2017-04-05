@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.emotional.tubes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".adminActivity"
+            android:label="@string/lihatBarang"/>
+        <activity android:name=".UserActivity"
+            android:label="@string/menu"/>
+        <activity android:name=".PesanActivity"
+            android:label="@string/pesanObat"/>
+        <activity
+            android:name=".TabsActivity"
+            android:label="@string/title_activity_tabs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".BarangMasukActivity"
+            android:label="@string/barangMasuk"/>
+        <activity android:name=".BarangKeluarActivity"
+            android:label="@string/barangKeluar"></activity>
+    </application>
+
+</manifest>

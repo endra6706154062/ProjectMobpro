@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WeCare</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="lihatBarang">Lihat Barang</string>
+    <string name="menu">Menu</string>
+    <string name="pesanObat">Pemesanan Obat</string>
+    <string name="barangMasuk">Data Obat Masuk</string>
+    <string name="barangKeluar">Data Obat Keluar</string>
+    <string name="weCare">WeCare</string>
+    <string name="title_activity_tabs">List Obat</string>
+    <string name="action_settings">Settings</string>
+    <string name="admin">Admin</string>
+    <string name="user">User</string>n
+    <string name="pesan">Pesan</string>
+    <string name="obat">Obat</string>
+    <string name="masuk">Obat Masuk</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="alamat">Alamat</string>
+    <string name="order">Order</string>
+    <string name="min">-</string>
+    <string name="plus">+</string>
+    <string name="angka">1</string>
+    <string name="keluar">Obat Keluar</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+</resources>
